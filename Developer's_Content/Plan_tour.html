@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Blog</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body style="background-color: rgb(8, 10, 18);">
+    <nav>
+        <img src="web_logo.png">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="camp_with_care.html">Camp With Care</a></li>
+            <li><a href="invisible_beach.html">Invisible Beach</a></li>
+            <li><a href="Emami_Jagannath_Temple.html">Emami Jagannath Temple</a></li>
+            <li><a href="gallery.html">Memories</a></li>
+            <li><a class="active" href="Plan_tour.html">plan tour</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Plan Tour</h1>
+        <div class="card bg-dark text-light">
+            <div class="card-body">
+                <form action="/action_page.php">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" class="form-control" placeholder="Enter your Name" >
+                    </div>
+                    <div class="form-group">
+                        <label for="gender">Gender:</label>
+                        <label class="radio.inline">
+                            <input type="radio" name="optradio">Male
+                        </label>
+                        <label class="radio.inline">
+                            <input type="radio" name="optradio">Female
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label for="age">Age:</label>
+                        <input type="tel" class="form-control" placeholder="Enter your Age" maxlength="2" pattern="[0-9]{2}">
+                    </div>
+                    <div class="form-group">
+                        <label for="Address">Address:</label>
+                        <input type="text" class="form-control" placeholder="Enter your Address">
+                    </div>
+                    <div class="form-group">
+                        <label for="number">Contact No.:</label>
+                        <input type="tel" class="form-control" placeholder="Enter your Contact Number" maxlength="10" pattern="[0-9]{10}">
+                    </div>
+                    <div class="form-group">
+                        <label for="gmail">Gmail:</label>
+                        <input type="email" class="form-control" placeholder="Enter your Email ID">
+                    </div>
+                    <div class="form-group">
+                        <label for="drop-down">WHAT PLAN YOU WANT TO CHOOSE:</label>
+                        <select id="drop-down" class="form-control">
+                            <option value="0" disabled selected>Select Your Plan</option>
+                            <option value="1">Emami Jagannath Temple</option>
+                            <option value="2">Camp With Care</option>
+                            <option value="3">Invisible Beach</option>
+                            <option value="4">Camp With Care and Invisible Beach</option>
+                            <option value="5">Camp With Care, Invisible Beach and Emami Jagannath Temple</option>
+                            <option value="6">Camp With Care, Invisible Beach, Emami Jagannath Temple and Some Others..</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footerContainer">
+            <div class="footerNav">
+                <ul>
+                    <li><a href="about.html" target="_blank">About</a></li>
+                    <li><a href="our_team.html" target="_blank">Our Team</a></li>
+                    <li><a href="join_our_team.html" target="_blank">Join Our Team</a></li>
+                    <li><a href="feedback.html" target="_blank">Share Feedback</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerBottom">
+            <p>Copyright &copy;2023; Designed by <span class="designer">Sumit</span></p>
+        </div>
+    </footer>
+</body>
+</html>

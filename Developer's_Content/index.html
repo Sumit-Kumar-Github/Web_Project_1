@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Blog</title>
+    <link rel="stylesheet" href="style1.css">
+    <style>
+        .overlay {
+            display: block;
+        }
+        .content {
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .content p{
+            width: 60%;
+            padding-bottom: 10px;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body style="background-color: rgb(8, 10, 18);">
+    <!--nav tag here is used for the navigation bar. Here <i> tag is used to import the 3 bar logo from fontawsome website.-->
+    <nav>
+        <img src="web_logo.png">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="camp_with_care.html">Camp With Care</a></li>
+            <li><a href="invisible_beach.html">Invisible Beach</a></li>
+            <li><a href="Emami_Jagannath_Temple.html">Emami Jagannath Temple</a></li>
+            <li><a href="gallery.html">Memories</a></li>
+            <li><a href="Plan_tour.html">plan tour</a></li>
+        </ul>
+    </nav>
+    <!--Here class overlay is used to apply a dark effect upon the background pictures to clearly see the texts.-->
+    <div class="bgImage">
+        <div class="overlay">
+            <div class="content">
+                <h1>A WINTER TRIP</h1>
+                <p><span style="font-size: xx-large;">O</span>n 15th December, we went on a 2 days long trip. We reached Balasore from Bhubaneswar by train. It took us around 4hrs to reach there. Camp with Care team provided the travelling facility for us to reach their destination. The cab was waiting for us to move. The Driver was very friendly to us, so we didn't faced any issues. After reaching the destination, we explored the place and took some photographs.  Actually, on 14th December we rented a DSLR camera for photoshoot for which we were very excited. Next, we went to the Dublagadi beach to have some fun but at that time, we thought God was not happy to see our excitement. That was the first time in my life where I had seen a beach with No Water. But we got some pretty good photos (Thanks to the Camera).
+                    Next day i.e.16th December, we were confused about where to go next because our returning train was at 12:00 a.m. and we had the whole day to spend. So, after breakfast we went for a walk towards the beach again!! But guess what, on the way we heard some loud sounds of sea waves. We all ran towards it and found out the beautiful scenery which we were expecting day before. We thought God felt pity on us. So, we enjoyed there for hours and didn't even realize how time went through. Then we came back to the camp and got ready for our next Destination which was The Emami Jaganath Temple. We went there by the same cab which dropped us at the camp. On the way, we encountered a lake which was the Blue Lake. The lake was pretty big and deep. We played skipping stones for sometimes and hopped to our final destination.
+                    We spent 3-4 hours at the temple captivated by the environment. We were happy to end our journey with the blessings of God. Then finally we went to railway station 2hrs before the train arrives because we had nowhere else to go nearby. We reached home safely by 17th (5:00 a.m. morning) with wonderful memories of a mesmerising trip.
+                </p>
+                <!--Here windows.location.href method is used to implement the link with the button.-->
+                <button onclick="window.location.href='Plan_tour.html';">Plan Tour</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footerContainer">
+            <div class="footerNav">
+                <ul>
+                    <li><a href="about.html" target="_blank">About</a></li>
+                    <li><a href="our_team.html" target="_blank">Our Team</a></li>
+                    <li><a href="join_our_team.html" target="_blank">Join Our Team</a></li>
+                    <li><a href="feedback.html" target="_blank">Share Feedback</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerBottom">
+            <p>Copyright &copy;2023; Designed by <span class="designer">Sumit</span></p>
+        </div>
+    </footer>
+</body>
+</html>
