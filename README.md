@@ -17,26 +17,26 @@ A responsive frontend web application designed to document, visualize, and share
 
 *** This is the home page of the web-site. ***
 
-![Index page of website](index_page.png)
+![Index page of website](https://github.com/Sumit-Kumar-Github/Raw-Data/blob/main/Web_project_1/index_page.png)
 
 ***This page have the information about our stay. ***
 
-![Camping site page of website](camp_page.png)
+![Camping site page of website](https://github.com/Sumit-Kumar-Github/Raw-Data/blob/main/Web_project_1/camp_page.png)
 
 ***This page is about the invisible beach of India, situated in Odisha. This beach vanishes at afternoon to evening and again appear at mid-night upto morning. This happens due to tides. ***
 
-![Invisible beach page of website](beach_page.png)
+![Invisible beach page of website](https://github.com/Sumit-Kumar-Github/Raw-Data/blob/main/Web_project_1/beach_page.png)
 
 ***This page demonstrate about a cultural heritage and temple of lord Jagannath. *
 
-![Emami Jagannath temple page of website](temple_page.png)
+![Emami Jagannath temple page of website](https://github.com/Sumit-Kumar-Github/Raw-Data/blob/main/Web_project_1/temple_page.png)
 
 ***This page showcase a gallery of photos. ***
 
-![Gallery page of website](gallery_1.png)
-![Follow-up gallery page of website](gallery_2.png)
+![Gallery page of website](https://github.com/Sumit-Kumar-Github/Raw-Data/blob/main/Web_project_1/gallery_1.png)
+![Follow-up gallery page of website](https://github.com/Sumit-Kumar-Github/Raw-Data/blob/main/Web_project_1/gallery_2.png)
 
 ***This is a form-based web-page to collect data from others. ***
 
-![planning form page of website](plan_page.png)
+![planning form page of website](https://github.com/Sumit-Kumar-Github/Raw-Data/blob/main/Web_project_1/plan_page.png)
 
