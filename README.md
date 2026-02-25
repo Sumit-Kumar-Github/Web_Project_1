@@ -12,7 +12,7 @@ A responsive frontend web application designed to document, visualize, and share
 * **Feedback Mechanism:** Dedicated pages for joining the group and submitting user feedback.
 
 ## 🛠️ Tech Stack
-* **Frontend:** HTML5, CSS3, JavaScript (Vanilla)
+* **Frontend:** HTML5, CSS3
 * **Design:** Custom CSS styling, Flexbox/Grid for the photo gallery layouts.
 
 ## 📸 Screenshots
